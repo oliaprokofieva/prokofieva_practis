@@ -18,9 +18,9 @@ html {
     margin: 100px auto;
     padding: 20px 20px 9px;
     position: relative;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(125, 142, 150, 0.507);
     border-radius: 3px;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 15px rgb(241, 234, 234);
 }
 .top span.clear {
     position: absolute;
@@ -37,7 +37,7 @@ html {
     font-weight: normal;
     line-height: 40px;
     color: whitesmoke;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(228, 226, 226, 0.2);
     text-align: right;
     letter-spacing: 1px;
 }
@@ -53,9 +53,9 @@ html {
     width: 66px;
     height: 56px;
 
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(14, 119, 218, 0.685);
     border-radius: 3px;
-    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px rgba(172, 222, 245, 0.514);
 
     margin: 0 7px 11px 0;
 
@@ -73,28 +73,29 @@ html {
 
 }
 .keys span.eval {
-    color: #888e5f;
+    color: #fcfcfc;
 }
 .top span.clear {
     background: transparent;
     box-shadow: none;
-    color: #1b1717;
+    background: rgba(14, 119, 218, 0.685);
+    color: #f5f1f1;
    width: 56px;
    left: 5px
 }
 .keys span:hover {
-    background: rgba(255, 255, 255, 0.8);
-    color: #333;
+    background: rgba(111, 189, 241, 0.753);
+    color: #0c5ec9;
 }
 .keys span.eval:hover {
-    background: #abb850;
-    color: #ffffff;
+    background: rgba(111, 189, 241, 0.753);
+    color: #0c5ec9;
 
 }
 .top span.clear:hover {
   border-radius: 190px;
-    background: rgba(0, 0, 0, 0.1);
-    color: white;
+    background: rgba(111, 189, 241, 0.753);
+    color: rgb(53, 131, 248);
 }
 
 .keys span:active {
@@ -103,12 +104,12 @@ html {
 }
 
 .keys span.eval:active {
-    box-shadow: 0px 0px #717a33;
+    box-shadow: 0px 0px #238de4;
     top: 4px;
 
 }
 
 .top span.clear:active {
     top: 4px;
-    box-shadow: 0px 0px #d3545d;
+    box-shadow: 0px 0px #3687f1;
 }

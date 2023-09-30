@@ -1808,7 +1808,7 @@
 }
 
 .deep-orange-text.text-lighten-1 {
-    color: #ff7043 !important
+    color: #141718 !important
 }
 
 .deep-orange.darken-1 {
@@ -2364,7 +2364,7 @@ ul:not(.browser-default) {
     list-style-type: none
 }
 
-ul:not(.browser-default)>li {
+ul:not(.browser-default) li {
     list-style-type: none
 }
 
