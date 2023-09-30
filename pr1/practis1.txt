@@ -1,0 +1,26 @@
+(1)
+let name = "Vika";
+let surname = "Stacenko";
+let age = 18;
+let person = name + " " + surname + ". " + age + "лет.";
+console.log(person);
+Vika Stacenko. 18лет.
+(2)
+let n1 = "20";
+undefined
+let n2 = "10";
+undefined
+let n1n2 = n1 + n2;
+undefined
+let n3  = "15";
+undefined
+let nlint = parseInt(n1);
+undefined
+console.log(nlint);
+20
+undefined
+let n3float = parseFloat(n3);
+undefined
+console.log(n3float);
+15
+(3)
