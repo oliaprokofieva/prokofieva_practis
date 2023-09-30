@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body>
+    <section>
+        <div class="container is-fluid">
+            <div class="row">
+                <div class="col s12 m8">
+                    <h2 class="header">User Signup</h2>
+                    <div class="card horizontal">
+                      <div class="card-image">
+                        <img src="https://lorempixel.com/100/190/nature/6">
+                      </div>
+                      <div class="card-stacked">
+                        <div class="card-content">
+                            <form class="col s30">
+                                <div class="row">
+                                  <div class="input-field col s6">
+                                    <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                                    <label for="first_name">First Name</label>
+                                  </div>
+                                  <div class="input-field col s6">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Last Name</label>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="input-field col s12">
+                                    <input id="email" type="email" class="validate">
+                                    <label for="email">Email</label>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                      <input id="password" type="password" class="validate">
+                                      <label for="password">Password</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                      <input id="password2" type="password" class="validate">
+                                      <label for="password2">Confirm Password</label>
+                                    </div>
+                                </div> 
+                              </form>
+                        </div>
+                        <div class="card-action">
+                            <a class="waves-effect waves-teal btn-flat #76ff03 light-green accent-3">Signup</a>
+                            <a class="waves-effect waves-teal btn-flat #4e342e brown darken-3 " onclick="fillForm()">fillForm</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </section>
+    <script>
+
+      function fillForm(event) {
+         let first_name = document.getElementById("first_name");
+         first_name.click()
+
+         first_name.value = "Anton";
+         let last_name = document.getElementById("last_name");
+         last_name.click()
+
+         last_name.value = "Antonov";
+         let email = document.getElementById("email");
+         email.click()
+         
+         email.value = "Anton@mail.ru";
+      }
+
+
+      
+    </script>
+</body>
+</html>
