@@ -24,27 +24,27 @@
                             <form class="col s30">
                                 <div class="row">
                                   <div class="input-field col s6">
-                                    <input placeholder="Enter your name" id="first_name" type="text" class="validate">
-                                    <label for="first_name">First Name</label>
+                                    <input placeholder="Введите имя" id="name" type="text" class="validate">
+                                    <label for="name">Name</label>
                                   </div>
                                   <div class="input-field col s6">
-                                    <input placeholder="Enter your last name" id="last_name" type="text" class="validate">
-                                    <label for="last_name">Last Name</label>
+                                    <input placeholder="Введите фамилию" id="surname" type="text" class="validate">
+                                    <label for="surname">Surname</label>
                                   </div>
                                 </div>
                                 <div class="row">
                                   <div class="input-field col s12">
-                                    <input placeholder="Enter your email" id="email" type="email" class="validate">
+                                    <input placeholder="Введите адрес электронной почты" id="email" type="email" class="validate">
                                     <label for="email">Email</label>
                                   </div>
                                 </div>
                                 <div class="row">
                                     <div class="input-field col s6">
-                                      <input placeholder="Enter your password" id="password" type="password" class="validate">
+                                      <input placeholder="Введите пароль" id="password" type="password" class="validate">
                                       <label for="password">Password</label>
                                     </div>
                                     <div class="input-field col s6">
-                                      <input placeholder="Confirm your password" id="password2" type="password" class="validate">
+                                      <input placeholder="Подтвердите пароль" id="password2" type="password" class="validate">
                                       <label for="password2">Confirm Password</label>
                                     
                                     </div>
@@ -64,13 +64,13 @@
     <script>
 
       function fillForm(event) {
-         let first_name = document.getElementById("first_name");
-         first_name.click()
-         first_name.value = "Anton";
+         let name = document.getElementById("name");
+         name.click()
+         name.value = "Anton";
 
-         let last_name = document.getElementById("last_name");
-         last_name.click()
-         last_name.value = "Antonov";
+         let surname = document.getElementById("surname");
+         surname.click()
+         surname.value = "Antonov";
 
          let email = document.getElementById("email");
          email.click()
