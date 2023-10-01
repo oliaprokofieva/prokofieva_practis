@@ -147,3 +147,10 @@ user
 undefined
 user.whoami()
 VM2852:5 My name Vika Stacenko
+(15)
+let user = {
+    [propertyName]: "Vika",
+};
+undefined
+user.firstname
+'Vika'
